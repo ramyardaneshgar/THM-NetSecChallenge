@@ -27,7 +27,7 @@ nmap -sS -sV -p1-10000 -vv <target-ip>
 
 ### Context:
 
-In real-world environments, attackers often begin by scanning a broader port range. Many admins configure services on non-standard but still low-numbered ports (e.g., 8080, 8888) in hopes of "security through obscurity." Identifying such ports early enables focused enumeration.
+In real-world environments, attackers often begin by scanning a broader port range. Many admins configure services on non-standard but still low-numbered ports (8080, 8888) in hopes of "security through obscurity." Identifying such ports early enables focused enumeration.
 
 ### Result:
 
